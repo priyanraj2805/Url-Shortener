@@ -177,7 +177,7 @@ public class UrlMappingService {
             clickEvent.setClickDate(LocalDateTime.now());
             clickEvent.setUrlMapping(urlMapping);
 
-            clickEventRepository.save(clickEvent);1
+            clickEventRepository.save(clickEvent);
         }
 
         return urlMapping;
